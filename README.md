@@ -14,17 +14,17 @@ clever strategies to (hopefully) make money!
 
 The system is composed by:
 
-  * The exchange, broadcasting through UDP the public information messages. To listen to this information,
+  * The exchange, broadcasting through **UDP** the public information messages. To listen to this information,
     connect to:
     
-    ```IP: 188.166.115.7, port: 7001```
+    ```ip: 188.166.115.7, port: 7001```
     
     This is used for the following message types: ```PRICE``` and ```TRADE```.
 
   * The exchange execution gateway, with which you communicate in order to send orders &mdash; and hopefully trade!
-    To send orders to the exchange, and listen for a reply, connect to:
+    To send orders to the exchange, and listen for a reply, connect to (also **UDP**):
     
-    ```IP: 188.166.115.7, port: 8001```
+    ```ip: 188.166.115.7, port: 8001```
     
     This is used for the following message types: ```ORDER``` and ```ORDER_ACK```.
 
@@ -126,7 +126,7 @@ Example: ```TYPE=ORDER|USERNAME=Optiver|FEEDCODE=FOOBAR|ACTION=BUY|PRICE=22.0|VO
 
 Examples:
 - ```TYPE=ORDER_ACK|FEEDCODE=FOOBAR|PRICE=22.0|TRADED_VOLUME=100```
-- ```TYPE=ORDER_ACK|FEEDCODE=FOOBAR|TRADED_VOLUME=100```
+- ```TYPE=ORDER_ACK|FEEDCODE=FOOBAR|TRADED_VOLUME=0```
 - ```TYPE=ORDER_ACK|ERROR=error message```
 
 
