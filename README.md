@@ -21,14 +21,14 @@ The system is composed by:
     
     ```ip: 188.166.115.7, port: 7001```
     
-    This is used for the following message types: ```PRICE``` and ```TRADE```.
+    This is used for the following message types: ```PRICE``` and ```TRADE``` (see the protocol section for more info).
 
   * The exchange execution gateway, with which you communicate in order to send orders &mdash; and hopefully trade!
     To send orders to the exchange, and listen for a reply, connect to (also **UDP**):
     
     ```ip: 188.166.115.7, port: 8001```
     
-    This is used for the following message types: ```ORDER``` and ```ORDER_ACK```.
+    This is used for the following message types: ```ORDER``` and ```ORDER_ACK``` (see the protocol section for more info).
 
 
 ### Using Captured Data
