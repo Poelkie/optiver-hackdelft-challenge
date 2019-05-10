@@ -67,8 +67,8 @@ Every message is composed by several fields separated by `|`.
 ### Info protocol specifications
 The exchange broadcasts two messages (via UDP):
 
-  * Price message: this tells you what is the current price and volume for an *instrument*
-  * Trade message: this tells you what trades on the exchange, at which price and for how much volume
+  * Price message: this tells you the current price and volume for an *instrument*
+  * Trade message: this tells you trades on the exchange, at which price and for how much volume
 
 
 #### Price message fields
@@ -99,7 +99,7 @@ Example: ```TYPE=TRADE|FEEDCODE=FOOBAR|SIDE=BID|PRICE=22.0|VOLUME=100```
 
 
 ### Execution protocol specification
-In order to trade, you need to send an order to the exchange (via UDP). Every order is acknowledged by the exchange
+In order to trade, you need to send an order to the exchange (via UDP). Every order is acknowledged by the exchange.
 
 #### Order message fields
 
