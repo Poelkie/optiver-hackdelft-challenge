@@ -37,9 +37,9 @@ captured data. There are two files, ```market_data.csv``` and ```trades.csv```.
 The first file contains a few hours worth of price updates to the ```ESX-FUTURE``` and ```SP-FUTURE```.
 The second file contains trades that occurred on the exchange.
 
-You can find the files here:
-- ```market_data.csv```: https://github.com/jundl77/optiver-hackdelft-challenge/blob/master/market_data.csv
-- ```trades.csv```: https://github.com/jundl77/optiver-hackdelft-challenge/blob/master/trades.csv
+You can find the files here in this repo:
+- ```market_data.csv```: [market_data.csv](https://github.com/jundl77/optiver-hackdelft-challenge/blob/master/market_data.csv)
+- ```trades.csv```: [trades.csv](https://github.com/jundl77/optiver-hackdelft-challenge/blob/master/trades.csv)
 
 
 ### Measure Your Performance
