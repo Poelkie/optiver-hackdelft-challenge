@@ -16,13 +16,15 @@ The system is composed by:
 
   * The exchange, broadcasting through UDP the public information messages. To listen to this information,
     connect to:
-    - ```IP: 188.166.115.7, port: 7001```.
+    
+    ```IP: 188.166.115.7, port: 7001```
     
     This is used for the following message types: ```PRICE``` and ```TRADE```.
 
   * The exchange execution gateway, with which you communicate in order to send orders &mdash; and hopefully trade!
     To send orders to the exchange, and listen for a reply, connect to:
-    - ```IP: 188.166.115.7, port: 8001```.
+    
+    ```IP: 188.166.115.7, port: 8001```
     
     This is used for the following message types: ```ORDER``` and ```ORDER_ACK```.
 
@@ -32,7 +34,7 @@ The system is composed by:
 If for some reason you are having difficulties connecting to our exchange, you can also download CSV files of
 captured data. There are two files, ```market_data.csv``` and ```trades.csv```.
 
-The first file contains a few hours worth of price updates to the ```ESX-FUTURES``` and ```SP-FUTURES```.
+The first file contains a few hours worth of price updates to the ```ESX-FUTURE``` and ```SP-FUTURE```.
 The second file contains trades that occurred on the exchange.
 
 You can find the files here:
@@ -42,10 +44,10 @@ You can find the files here:
 
 ### Measure Your Performance
 
-Trading is one thing, but of course you also want to know how you are doing right?
-For that it might be smart to 
+Trading is one thing, but of course you also want to know how much money you have made or lost, right?
+For that, it might be smart to track your own profit and loss (PnL), alongside your positions (which is your risk).
 
-You can use your PnL (profit and loss) to look at how you are doing. You can look at your PnL here:
+You can also look at your official PnL here:
 ```insert url here```
 
 **All of you are trading on the same exchange, which means that you will compete for the same opportunities...**
@@ -58,7 +60,7 @@ You can use your PnL (profit and loss) to look at how you are doing. You can loo
 ## Protocol specification
 The communication from and towards the exchange is done via a text-based, ASCII, protocol.
 
-Every message is specific to an *instrument*, identified by a *feedcode*. Example: `SP-FUTURE`.
+Every message is specific to an *instrument*, identified by a *feedcode* (i.e. `SP-FUTURE` or `ESX-FUTURE`).
 Every message is composed by several fields separated by `|`.
 
 ### Info protocol specifications
