@@ -47,8 +47,7 @@ You can find the files here in this repo:
 Trading is one thing, but of course you also want to know how much money you have made or lost, right?
 For that, it might be smart to track your own profit and loss (PnL), alongside your positions (which is your risk).
 
-You can also look at your official PnL here:
-```insert url here```
+You can also look at your official PnL here: http://188.166.115.7/
 
 **All of you are trading on the same exchange, which means that you will compete for the same opportunities...**
 
