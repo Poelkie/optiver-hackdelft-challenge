@@ -27,7 +27,7 @@ The system is composed by:
     This is used for the following message types: ```ORDER``` and ```ORDER_ACK```.
 
 
-#### Using Captured Data
+### Using Captured Data
 
 If for some reason you are having difficulties connecting to our exchange, you can also download CSV files of
 captured data. There are two files, ```market_data.csv``` and ```trades.csv```.
@@ -40,7 +40,7 @@ You can find the files here:
 - ```trades.csv```: https://github.com/jundl77/optiver-hackdelft-challenge/blob/master/trades.csv
 
 
-#### Measure Your Performance
+### Measure Your Performance
 
 Trading is one thing, but of course you also want to know how you are doing right?
 For that it might be smart to 
