@@ -36,8 +36,8 @@ The first file contains a few hours worth of price updates to the ```ESX-FUTURES
 The second file contains trades that occurred on the exchange.
 
 You can find the files here:
-- ```market_data.csv```: insert url
-- ```trades.csv```: insert url
+- ```market_data.csv```: https://github.com/jundl77/optiver-hackdelft-challenge/blob/master/market_data.csv
+- ```trades.csv```: https://github.com/jundl77/optiver-hackdelft-challenge/blob/master/trades.csv
 
 
 #### Measure Your Performance
