@@ -1,6 +1,6 @@
 # Optiver HackDelft Challenge
 
-Look at your results here: http://188.166.115.7/
+Look at your positions here: http://188.166.115.7/
 
 During this challenge, you will be listening to an exchange, analyse its data and then,
 if you'd like, develop an automated trading system. Of course you are also welcome to
