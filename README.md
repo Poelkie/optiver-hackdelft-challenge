@@ -64,10 +64,12 @@ The communication from and towards the exchange is done via a text-based, ASCII,
 Every message is specific to an *instrument*, identified by a *feedcode* (i.e. `SP-FUTURE` or `ESX-FUTURE`).
 Every message is composed by several fields separated by `|`.
 
+**Important**: Send ```TYPE=SUBSCRIPTION_REQUEST``` to ```ip: 188.166.115.7, port: 7001``` as the very first message in order to subscribe to the data feed.
+
 ### Info protocol specifications
+
 The exchange broadcasts two messages (via UDP):
 
-  * Init message:  Send ```TYPE=SUBSCRIPTION_REQUEST``` as the very first message in order to subscribe to the data feed
   * Price message: this tells you the current price and volume for an *instrument*
   * Trade message: this tells you trades on the exchange, at which price and for how much volume
 
